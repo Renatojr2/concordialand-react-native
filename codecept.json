@@ -1,0 +1,50 @@
+{
+	"tests": "/home/renato/Documentos/react/concordia/test/test.js",
+	"output": "/home/renato/Documentos/react/concordia/output",
+	"helpers": {
+		"DbHelper": {
+			"require": "./node_modules/codeceptjs-dbhelper"
+		},
+		"CmdHelper": {
+			"require": "./node_modules/codeceptjs-cmdhelper"
+		},
+		"Appium": {
+			"platform": "Android",
+			"app": "./android/app/build/outputs/apk/debug/app-debug.apk",
+			"desiredCapabilities": {
+				"automationName": "uiautomator2",
+				"appPackage": "com.concordia",
+				"appActivity": "MainActivity",
+				"deviceName": "moto g(8) play - 10"
+			}
+		}
+	},
+	"bootstrap": false,
+	"mocha": {
+		"reporterOptions": {
+			"codeceptjs-cli-reporter": {
+				"stdout": "-",
+				"options": {
+					"steps": true
+				}
+			},
+			"json": {
+				"stdout": "output.json"
+			},
+			"mochawesome": {
+				"stdout": "-",
+				"options": {
+					"reportDir": "",
+					"reportFilename": "report",
+					"uniqueScreenshotNames": true,
+					"timestamp": false
+				}
+			}
+		}
+	},
+	"multiple": {
+		"parallel": {
+			"chunks": 2
+		}
+	}
+}

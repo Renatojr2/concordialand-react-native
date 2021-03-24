@@ -1,0 +1,13 @@
+# Generated with ❤ by Concordia
+#
+# THIS IS A GENERATED FILE - MODIFICATIONS CAN BE LOST !
+
+importe "test.feature"
+
+@generated
+@scenario(1)
+@variant(1)
+Caso de teste: clicar em um botão - 1
+  Dado estou na pagina principal '//home'
+    E eu vejo 'home'
+    E espero 2 segundos

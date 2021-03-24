@@ -1,0 +1,143 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2021-03-23T11:19:00.902Z",
+    "end": "2021-03-23T11:19:09.800Z",
+    "duration": 8898,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "passPercentClass": "danger",
+    "pendingPercentClass": "danger"
+  },
+  "suites": {
+    "uuid": "ba654521-0913-45cc-920a-d20603c90868",
+    "title": "",
+    "fullFile": "",
+    "file": "",
+    "beforeHooks": [],
+    "afterHooks": [],
+    "tests": [],
+    "suites": [
+      {
+        "uuid": "2b5a4cc7-9d5f-4afc-a0ad-3c8e4b1f0ca6",
+        "title": "clicar em um botão",
+        "fullFile": "/home/renato/Documentos/react/concordia/test/test.js",
+        "file": "/test/test.js",
+        "beforeHooks": [
+          {
+            "title": "\"before all\" hook: codeceptjs.beforeSuite",
+            "fullTitle": "clicar em um botão \"before all\" hook: codeceptjs.beforeSuite",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.suiteSetup(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "b9aae682-ff5b-4500-9c13-44547871af46",
+            "isHook": true,
+            "skipped": false
+          },
+          {
+            "title": "\"before each\" hook: codeceptjs.before",
+            "fullTitle": "clicar em um botão \"before each\" hook: codeceptjs.before",
+            "timedOut": false,
+            "duration": 7904,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.setup(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "eb5424a8-b8c9-4057-86af-21b75656688c",
+            "isHook": true,
+            "skipped": false
+          }
+        ],
+        "afterHooks": [
+          {
+            "title": "\"after all\" hook: codeceptjs.afterSuite",
+            "fullTitle": "clicar em um botão \"after all\" hook: codeceptjs.afterSuite",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.suiteTeardown(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "68abbf7b-e697-43bb-956d-41a8c73034fc",
+            "isHook": true,
+            "skipped": false
+          },
+          {
+            "title": "\"after each\" hook: finalize codeceptjs",
+            "fullTitle": "clicar em um botão \"after each\" hook: finalize codeceptjs",
+            "timedOut": false,
+            "duration": 239,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.teardown(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "9049a6d4-c4d4-4f56-8160-99bc14c1cab0",
+            "isHook": true,
+            "skipped": false
+          }
+        ],
+        "tests": [
+          {
+            "title": "clicar em um botão | clicar em um botão - 1",
+            "fullTitle": "clicar em um botão: clicar em um botão | clicar em um botão - 1",
+            "timedOut": false,
+            "duration": 745,
+            "state": "failed",
+            "pass": false,
+            "fail": true,
+            "pending": false,
+            "code": "I.amOnPage(\"//home\"); // (11,2)\nI.see(\"home\"); // (12,4)\nI.wait(2); // (13,4)",
+            "err": {
+              "message": "unknown error: An unknown server-side error occurred while processing the command. Original error: Error attempting to start URI. Original error: Error: Starting: Intent { act=android.intent.action.VIEW dat=http://home/... pkg=com.concordia }\nError: Activity not started, unable to resolve Intent { act=android.intent.action.VIEW dat=http://home/... flg=0x10000000 pkg=com.concordia }",
+              "estack": "An unknown server-side error occurred while processing the command. Original error: Error attempting to start URI. Original error: Error: Starting: Intent { act=android.intent.action.VIEW dat=http://home/... pkg=com.concordia }\nError: Activity not started, unable to resolve Intent { act=android.intent.action.VIEW dat=http://home/... flg=0x10000000 pkg=com.concordia }\n\nScenario Steps:\n\n- I.amOnPage(\"//home\") at Test.<anonymous> (test/test.js:9:7)\n\n"
+            },
+            "isRoot": false,
+            "uuid": "81c9322d-280a-48e7-a834-a90072b2ff18",
+            "isHook": false,
+            "skipped": false
+          }
+        ],
+        "suites": [],
+        "passes": [],
+        "failures": [
+          "81c9322d-280a-48e7-a834-a90072b2ff18"
+        ],
+        "pending": [],
+        "skipped": [],
+        "duration": 745,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 0
+      }
+    ],
+    "passes": [],
+    "failures": [],
+    "pending": [],
+    "skipped": [],
+    "duration": 0,
+    "root": true,
+    "rootEmpty": true,
+    "_timeout": 0
+  },
+  "copyrightYear": 2021
+}

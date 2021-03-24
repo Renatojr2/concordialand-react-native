@@ -1,0 +1,17 @@
+{
+	"directory": "features",
+	"dirScript": "test",
+	"dirResult": "output",
+	"language": "pt",
+	"headless": false,
+	"verbose": false,
+	"stopOnTheFirstError": false,
+	"x": false,
+	"justSpec": false,
+	"justTestCase": false,
+	"justScript": false,
+	"justRun": false,
+	"justResult": false,
+	"tcSuppressHeader": false,
+	"plugin": "codeceptjs-appium"
+}

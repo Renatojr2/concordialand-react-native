@@ -1,0 +1,52 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2021-03-23T11:19:00.902Z",
+    "end": "2021-03-23T11:19:09.799Z",
+    "duration": 8897
+  },
+  "tests": [
+    {
+      "title": "clicar em um botão | clicar em um botão - 1",
+      "fullTitle": "clicar em um botão: clicar em um botão | clicar em um botão - 1",
+      "duration": 745,
+      "currentRetry": 0,
+      "err": {
+        "stack": "An unknown server-side error occurred while processing the command. Original error: Error attempting to start URI. Original error: Error: Starting: Intent { act=android.intent.action.VIEW dat=http://home/... pkg=com.concordia }\nError: Activity not started, unable to resolve Intent { act=android.intent.action.VIEW dat=http://home/... flg=0x10000000 pkg=com.concordia }\n\nScenario Steps:\n\n- I.amOnPage(\"//home\") at Test.<anonymous> (test/test.js:9:7)\n\n",
+        "message": "An unknown server-side error occurred while processing the command. Original error: Error attempting to start URI. Original error: Error: Starting: Intent { act=android.intent.action.VIEW dat=http://home/... pkg=com.concordia }\nError: Activity not started, unable to resolve Intent { act=android.intent.action.VIEW dat=http://home/... flg=0x10000000 pkg=com.concordia }",
+        "name": "unknown error",
+        "multiple": [
+          {
+            "name": "unknown error",
+            "multiple": "unknown error: An unknown server-side error occurred while processing the command. Original error: Error attempting to start URI. Original error: Error: Starting: Intent { act=android.intent.action.VIEW dat=http://home/... pkg=com.concordia }\nError: Activity not started, unable to resolve Intent { act=android.intent.action.VIEW dat=http://home/... flg=0x10000000 pkg=com.concordia }"
+          }
+        ]
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "clicar em um botão | clicar em um botão - 1",
+      "fullTitle": "clicar em um botão: clicar em um botão | clicar em um botão - 1",
+      "duration": 745,
+      "currentRetry": 0,
+      "err": {
+        "stack": "An unknown server-side error occurred while processing the command. Original error: Error attempting to start URI. Original error: Error: Starting: Intent { act=android.intent.action.VIEW dat=http://home/... pkg=com.concordia }\nError: Activity not started, unable to resolve Intent { act=android.intent.action.VIEW dat=http://home/... flg=0x10000000 pkg=com.concordia }\n\nScenario Steps:\n\n- I.amOnPage(\"//home\") at Test.<anonymous> (test/test.js:9:7)\n\n",
+        "message": "An unknown server-side error occurred while processing the command. Original error: Error attempting to start URI. Original error: Error: Starting: Intent { act=android.intent.action.VIEW dat=http://home/... pkg=com.concordia }\nError: Activity not started, unable to resolve Intent { act=android.intent.action.VIEW dat=http://home/... flg=0x10000000 pkg=com.concordia }",
+        "name": "unknown error",
+        "multiple": [
+          {
+            "name": "unknown error",
+            "multiple": "unknown error: An unknown server-side error occurred while processing the command. Original error: Error attempting to start URI. Original error: Error: Starting: Intent { act=android.intent.action.VIEW dat=http://home/... pkg=com.concordia }\nError: Activity not started, unable to resolve Intent { act=android.intent.action.VIEW dat=http://home/... flg=0x10000000 pkg=com.concordia }"
+          }
+        ]
+      }
+    }
+  ],
+  "passes": []
+}
